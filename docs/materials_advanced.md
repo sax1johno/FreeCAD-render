@@ -9,7 +9,7 @@ information, the rendering material computation process can take place at render
 time.
 It is based on the following inputs:
 - An object being rendered
-- A FreeCAD Material (https://wiki.freecadweb.org/Material)
+- A FreeCAD Material (https://Wiki.FreeCAD.Org/Material)
 - A renderer
 - A default color for the object being rendered. This data is taken from the
 object's shape color in FreeCAD, and is provided to the process mainly for
@@ -47,7 +47,7 @@ new Material in your document, you can also directly set your rendering
 parameters in the Material Card.
 A description of the FreeCAD material card format, the creation and the import
 processes of such a card can be found here in FreeCAD documentation:
-[FreeCAD material card file format](https://wiki.freecadweb.org/Material#The_FreeCAD_material_card_file_format).
+[FreeCAD material card file format](https://Wiki.FreeCAD.Org/Material#The_FreeCAD_material_card_file_format).
 
 The relevant parameters to be used for rendering material are to be found
 below in chapter [Material card settings for rendering](#parameters)
@@ -59,7 +59,7 @@ This section explains how to write rendering parameters in material cards files
 
 - Material card files (.FCMat) follows the "Ini" file format, as described in
 FreeCAD documentation:
-[FreeCAD material card file format](https://wiki.freecadweb.org/Material#The_FreeCAD_material_card_file_format).
+[FreeCAD material card file format](https://Wiki.FreeCAD.Org/Material#The_FreeCAD_material_card_file_format).
 Be sure to have understood the general format before adding specific rendering
 parameters.
 - Rendering parameters should be gathered under a `[Rendering]` section.

@@ -15,7 +15,7 @@ Parameter | Type | Description
 
 Comments:
 * The Render workbench uses the same
-  [template](https://www.freecadweb.org/wiki/Raytracing_Module#Templates)
+  [template](https://Wiki.FreeCAD.Org/Raytracing_Workbench#Templates)
   logic as the Raytracing workbench, and templates are fully compatible.
   Templates usually contain:
   - Lighting presets
@@ -54,7 +54,7 @@ Parameter | Type | Description
 
 These parameters controls mesher behaviour. Render uses FreeCAD standard
 mesher, you may find some more information in [FreeCAD
-documentation](https://wiki.freecadweb.org/Mesh_FromPartShape#Standard_mesher)
+documentation](https://Wiki.FreeCAD.Org/Mesh_FromPartShape#Standard_mesher)
 
 Parameter | Type | Description
 ----------|------|------------

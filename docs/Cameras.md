@@ -53,7 +53,7 @@ The camera will be represented in viewport by the following symbol:
 
 Render Camera records the internal camera parameters used in FreeCAD
 viewport.  This viewport relies on
-[Pivy/Coin](https://wiki.freecadweb.org/Pivy), a 3D-rendering library
+[Pivy/Coin](https://Wiki.FreeCAD.Org/Pivy), a 3D-rendering library
 implementing the [Open
 Inventor](https://web.archive.org/web/20041120092542/http://oss.sgi.com/projects/inventor/)
 standard.  This is why we refer you to [Open

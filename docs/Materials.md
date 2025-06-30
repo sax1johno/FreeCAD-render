@@ -17,7 +17,7 @@ objects exported to renderers.
 To make things easier, these features heavily rely on the standard Material
 data system of FreeCAD. An introduction to FreeCAD Material system can be found
 here:
-[FreeCAD Material Introduction](https://wiki.freecadweb.org/Material).
+[FreeCAD Material Introduction](https://Wiki.FreeCAD.Org/Material).
 
 *Please note that it eventually leads to 2 concepts of "materials":
 FreeCAD Material, the material feature of FreeCAD ; and

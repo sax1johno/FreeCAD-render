@@ -29,7 +29,7 @@ new renderer plugin.
 
 ## Translating
 Render Workbench is translated following the [general
-guidelines](https://wiki.freecadweb.org/Translating_an_external_workbench)
+guidelines](https://Wiki.FreeCAD.Org/Translating_an_external_workbench)
 provided by FreeCAD documentation.
 Please note we do not translate:
 * Debug messages (calls to debug()), as they are supposed to be hidden in

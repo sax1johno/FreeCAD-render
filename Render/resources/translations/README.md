@@ -101,4 +101,4 @@ also include the `.qm` file.
 
 You can read more about translating external workbenches here:
 
-<https://wiki.freecad.org/Translating_an_external_workbench>
+<https://Wiki.FreeCAD.Org/Translating_an_external_workbench>

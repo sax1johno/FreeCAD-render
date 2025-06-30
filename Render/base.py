@@ -82,7 +82,7 @@ Prop = namedtuple(
 )
 Prop.__new__.__defaults__ = (0,) * 2  # Python 3.6 style
 # NB: for EditorMode and PropertyType valid values, see
-# https://wiki.freecadweb.org/Scripted_objects#Property_Type
+# https://Wiki.FreeCAD.Org/Scripted_objects#Property_Type
 
 CtxMenuItem = namedtuple(
     "CtxMenuItem",

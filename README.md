@@ -3,7 +3,7 @@
 [![FreeCAD Addon manager status](https://img.shields.io/badge/FreeCAD%20addon%20manager-available-brightgreen)](https://github.com/FreeCAD/FreeCAD-addons)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
 
-A [FreeCAD](https://www.freecadweb.org) workbench to produce high-quality
+A [FreeCAD](https://FreeCAD.Org) workbench to produce high-quality
 rendered images from your FreeCAD document, using open-source external
 rendering engines.
 
@@ -20,7 +20,7 @@ it will make our day! Thank you...
 ## Introduction
 
 The Render Workbench is a replacement for the built-in [Raytracing
-Workbench](https://www.freecadweb.org/wiki/Raytracing_Module) of FreeCAD. It is
+Workbench](https://Wiki.FreeCAD.Org/Raytracing_Workbench) of FreeCAD. It is
 based on the same philosophy, but aims to improve certain aspects of
 Raytracing:
 
@@ -58,7 +58,7 @@ installed from menu `Tools > Addon Manager` in FreeCAD. This is the recommended
 installation method.<br /> However, alternatively, it can also be installed
 manually by downloading this repository using the "clone or download" button
 above. Refer to [FreeCAD
-documentation](https://www.freecadweb.org/wiki/How_to_install_additional_workbenches)
+documentation](https://Wiki.FreeCAD.Org/How_to_install_additional_workbenches)
 to learn more.
 
 ### External rendering engines
@@ -86,7 +86,7 @@ FreeCAD model is just a 4-steps process:
 
 
 3. **Set your point of view:**
-[Navigate in FreeCAD 3D View](https://wiki.freecadweb.org/Manual:Navigating_in_the_3D_view)
+[Navigate in FreeCAD 3D View](https://Wiki.FreeCAD.Org/Manual:Navigating_in_the_3D_view)
    to the desired position and switch to _Perspective_ mode.
 
 
