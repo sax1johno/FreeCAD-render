@@ -1,5 +1,5 @@
 // Persistence of Vision Ray Tracer Scene Description File
-// for FreeCAD (http://www.freecadweb.org)
+// for FreeCAD (https://FreeCAD.Org)
 
 #version 3.6;
 

@@ -255,7 +255,7 @@ class Project(FeatureBase):
         if "Group" not in fpo.PropertiesList:
             if FCDVERSION >= (0, 19):
                 fpo.addExtension("App::GroupExtensionPython")
-                # See https://forum.freecadweb.org/viewtopic.php?f=10&t=54370
+                # See https://forum.freecad.org/viewtopic.php?f=10&t=54370
             else:
                 fpo.addExtension("App::GroupExtensionPython", self)
         fpo.setEditorMode("Group", 2)

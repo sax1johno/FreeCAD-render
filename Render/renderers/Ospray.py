@@ -283,7 +283,7 @@ def write_arealight(
     transparency = 1.0 if transparent else 0.0
     lcol = color.to_linear()
     mtl = f"""
-# Created by FreeCAD <http://www.freecadweb.org>",
+# Created by FreeCAD <https://FreeCAD.Org>",
 newmtl material
 type luminous
 color {lcol[0]} {lcol[1]} {lcol[2]}
@@ -308,7 +308,7 @@ transparency {transparency}
     normal = osp_pos.multVec(App.Vector(0, 0, 1))
 
     obj = f"""
-# Created by FreeCAD <http://www.freecadweb.org>"]
+# Created by FreeCAD <https://FreeCAD.Org>"]
 mtllib {os.path.basename(mtl_file)}
 {verts}
 vn {normal.x} {normal.y} {normal.z}
