@@ -124,7 +124,7 @@ class PythonSubprocess(QProcess):
     - a communication server to interact with process
     """
 
-    winid_available = Signal(object)
+    winid_available = Signal(int)
     detach_required = Signal()
 
     def __init__(self, python, args, parent=None):
@@ -335,7 +335,7 @@ class PythonSubprocessWindow(QMdiSubWindow):
         self.setWindowTitle("Render")
         mdiarea.addSubWindow(self)
 
-    @Slot(object)
+    @Slot(int)
     def attach_process(self, winid):
         """Attach subprocess to FreeCAD Gui."""
         # Create container and embed process inside

@@ -235,8 +235,8 @@ class ImporterWorker(QObject):
     """
 
     # Signals
-    finished = Signal(object)
-    _report_progress = Signal(object, object)
+    finished = Signal(int)
+    _report_progress = Signal(int, int)
 
     def __init__(
         self,
