@@ -341,10 +341,14 @@ class PythonSubprocessWindow(QMdiSubWindow):
         # Create container and embed process inside
         # QWindow.fromWinId is not supported on macOS and QT <6, so open a new window instead.
         if sys.platform == "darwin":
-            print("QWindow.fromWinId not supported on macOS – showing placeholder window.")
+            print(
+                "QWindow.fromWinId not supported on macOS – showing placeholder window."
+            )
             self.container = QWidget()
             layout = QVBoxLayout(self.container)
-            label = QLabel("Renderer running in external window.\nEmbedding not supported on macOS.")
+            label = QLabel(
+                "Renderer running in external window.\nEmbedding not supported on macOS."
+            )
             label.setAlignment(Qt.AlignCenter)
             layout.addWidget(label)
             self.setWidget(self.container)
